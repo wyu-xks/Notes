@@ -121,6 +121,7 @@ Java平台提供了两种类型的字符串：String和StringBuffer/StringBuilde
 StringBuffer 字符串变量（线程安全）  
 StringBuilder 字符串变量（非线程安全）  
 单线程环境下，推荐使用StringBuilder，比StringBuffer快。
+
 **for循环1000次，和循环10万次，怎么组合，1000在外循环，还是10万在外循环**  
 中心思想：减少方法的压栈次数，将循环次数多的循环放在内侧，循环次数少的循环放在外侧，减少相关循环变量的实例化次数、初始化次数、比较次数、自增次数，其性能会提高。
 
