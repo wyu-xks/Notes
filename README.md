@@ -273,7 +273,7 @@ View：对应于布局文件
 Model：业务逻辑和实体模型  
 Controllor：对应于Activity  
 
-![image](E:\法本\1.jpg)
+![image](https://github.com/wyu-xks/Notes/blob/master/mvc.png)
 
 View 传送指令到 Controller，View可以与Model直接交互 。   
 Controller 完成业务逻辑后，要求 Model 改变状态 。   
@@ -290,7 +290,7 @@ Model： 依然是业务逻辑和实体模型。
 Presenter： 作为View与Model交互的中间纽带，处理与用户交互的业务逻辑。
 View interface：需要View实现的接口，View通过View interface与Presenter进行交互，降低耦合，方便进行单元测试。  
 
-![image](E:\法本\2.jpg)
+![image](https://github.com/wyu-xks/Notes/blob/master/mvp.png)
 
 View不直接与Model交互，而是通过与Presenter交互来与Model间接交互。  
 Presenter与View的交互是通过接口来进行的。  
@@ -311,7 +311,7 @@ View：负责绘制UI元素、与用户进行交互(在Android中体现为Activi
 Model：依然是业务逻辑和实体模型。        
 ViewModel：将前面两者联系在一起的对象。    
 
-![image](E:\法本\3.jpg)
+![image](https://github.com/wyu-xks/Notes/blob/master/mvvm.png)
 
 
 一个ViewModel接口提供了两个东西：动作和数据。动作改变Model的下层（click listener，监听文字改变的listener等等），而数据则是Model的内容。  
